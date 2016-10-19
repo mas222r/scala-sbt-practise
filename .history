@@ -1,0 +1,7 @@
+clean
+compile
+clean
+reload
+show gitCommitHeadSha
+gitHeadCommitSha
+reload

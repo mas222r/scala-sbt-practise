@@ -1,8 +1,19 @@
+lazy val hello = taskKey[Unit]("Prints 'Hello World'")
+hello := println("hello world!")
+
+lazy val gitHeadCommitSha = settingKey[Option[String]]("Determines the current git commit SHA")
+gitHeadCommitSha := { 
+try {
+Some(Process("git rev-parse HEAD").lines.head)
+} catch {
+case _: Exception => None
+}
+}
 
 
 lazy val commonSettings = Seq(
   organization := "Arshan it ltd",
-  version := "1.0",
+  version := "1.0-",
   scalaVersion := "2.11.8"
 )
 
