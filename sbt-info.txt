@@ -1,0 +1,190 @@
+sourceSource
+settings
+scalaSource
+compile
+package
+run
+console
+reload
+compile
+package
+test
+settings
+reload
+clean
+compile
+update
+clean
+reload
+compile
+test
+reload
+clean
+package
+clean
+compile
+reload
+compile
+reload
+clean
+compile
+console
+clean
+reload
+compile
+clean
+reload
+compile
+clean
+reload
+compile
+clean
+reload
+compile
+test
+test-only
+package
+taskkeys
+taskkey
+tasks
+settings
+configuration
+defaultConfiguration
+projects
+clean
+reload
+projects
+relaod
+reload
+projects
+common-execute/clean
+common-execute / clean
+common/test
+common-execute test
+commonexecute/compile
+clean
+reload
+projects
+clean
+reload
+clean
+reload
+clean
+reload
+clean
+reload
+clean
+relaod
+reload
+compile
+package
+projects
+clean
+reload
+package
+name
+publish
+inspect tree compile:compile
+inspect tree sources
+show compile
+show scalaSource
+show javaSource
+inspect tree resources
+show resourceDirectory
+baseDirectory.value
+baseDirectory
+settings
+help baseDirectory
+show baseDirectory
+inspect tree baseDirectory
+update
+tasks
+settings
+help settings
+tasks
+reload
+clean
+sbt scalastyle
+clean
+reload
+sbt scalastyleGenerateConfig
+sbt scalastyle
+scalastyle
+scalastyleConfig
+scalastyle
+scalastyleGenerateConfig
+scalastyle
+clean
+reload
+assembly
+clean
+reload
+assembly
+fullClasspath
+settings help fullClasspath
+help settings
+settings fullClasspath
+show fullClasspath
+inspect fullClasspath
+reload plugins
+clean
+reload
+clean
+relaod
+reload
+clean
+reload
+clean
+reload
+hello
+gitHeadCommitSha
+reload
+hello
+gitHeadCommitSha
+reload
+gitHeadCommitSha
+clean
+reload
+release
+reload
+release
+reload
+release
+reload
+release
+reload
+release
+update
+clean
+reload
+version
+git tag
+version
+git tag v0.2
+version
+reload
+version
+about
+help
+projects
+project
+session
+last
+clean
+reload
+checkNoLocalChanges
+clean
+reload
+compile
+sbtPractiseRelease
+release
+clean
+reload
+sbtPractiseRelease
+publishLocal
+assembly
+mainClass
+exit
+reload
+compile
+stage

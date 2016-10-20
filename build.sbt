@@ -10,7 +10,6 @@ case _: Exception => None
 }
 }
 
-
 lazy val commonSettings = Seq(
   organization := "Arshan it ltd",
   version := "1.0-",
@@ -30,3 +29,5 @@ lazy val root = (project in file(".")).settings(commonSettings:_*).settings(name
   "org.scalaz" %% "scalaz-typelevel" % scalazVersion,
   "org.scalaz" %% "scalaz-scalacheck-binding" % scalazVersion % "test")).dependsOn(commonexec).aggregate(commonexec)
 
+mainClass := Some("some.com")
+packageArchetype.java_server
