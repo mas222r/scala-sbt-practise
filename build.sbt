@@ -11,7 +11,7 @@ case _: Exception => None
 }
 
 lazy val commonSettings = Seq(
-  organization := "Arshan it ltd",
+  organization := "Arshan IT pvt ltd",
   version := "1.0-",
   scalaVersion := "2.11.8"
 )
